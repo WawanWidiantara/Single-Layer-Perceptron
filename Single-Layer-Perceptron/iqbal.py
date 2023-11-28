@@ -98,12 +98,12 @@ dt.isna().sum()
 lbenc = LabelEncoder()
 
 for col in dt.columns.values:
-    if dt[col].dtype == "object":
+    if dt[col].dtype == "string":
         dt[col] = lbenc.fit_transform(dt[col])
 
 dt.head()
 
-# # %%
+# %%
 merged_test_data = pd.merge(dt, gdt, on="PassengerId", how="left")
 
 # %%
@@ -117,8 +117,9 @@ y_test = merged_test_data.iloc[:, 8]
 # %%
 feature = X_test.copy()
 label = y_test.copy()
-label = label.reshape(-1, 1)
+label = label.values.reshape(-1, 1)
 passengerId = test.iloc[:, 0].values.reshape(-1, 1)
+
 col = merged_test_data.columns.values.tolist()
 col.pop(1)
 col.append("Survived")
