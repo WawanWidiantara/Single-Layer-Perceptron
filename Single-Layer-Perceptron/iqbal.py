@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 # %%
 dt = pd.read_csv(
@@ -113,3 +113,22 @@ merged_test_data
 test = merged_test_data.copy()
 X_test = test.iloc[:, 1:8]
 y_test = merged_test_data.iloc[:, 8]
+
+# %%
+feature = X_test.copy()
+label = y_test.copy()
+label = label.reshape(-1, 1)
+passengerId = test.iloc[:, 0].values.reshape(-1, 1)
+col = merged_test_data.columns.values.tolist()
+col.pop(1)
+col.append("Survived")
+
+mnmx = MinMaxScaler()
+feature = mnmx.fit_transform(feature)
+
+data = np.concatenate((passengerId, feature), axis=1)
+dataLabel = np.concatenate((data, label), axis=1)
+normalize_data = pd.DataFrame(dataLabel, columns=col)
+
+normalize_data = normalize_data.astype({"PassengerId": "int64", "Survived": "int64"})
+normalize_data
