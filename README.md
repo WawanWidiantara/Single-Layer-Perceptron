@@ -38,13 +38,13 @@ Here are the incredible contributors to this project:
 
 | **Contributor**            | **NPM** | **GitHub Profile**               |
 |-----------------------------|----------------|-----------------------------------|
-| I Gede Widiantara (Lead)   | 5210411135     | [GitHub Profile](#https://github.com/WawanWidiantara) |
-| Evi Nur Hidayah            | 5210411104     | [GitHub Profile](#https://github.com/evinhdy) |
-| Ahmad Halim Faizal Zidan   | 5210411106     | [GitHub Profile](#https://github.com/Zidane03) |
-| Nendy Nailul Autor         | 5210411117     | [GitHub Profile](#https://github.com/nendynailula) |
-| Muhammad Izza Iqbal        | 5210411144     | [GitHub Profile](#https://github.com/izzybug) |
-| Muhammad Aufa Zaydan Azfar | 5210411147     | [GitHub Profile](#https://github.com/AufaAzfar) |
-| Allan Bil Faqih            | 5210411383     | [GitHub Profile](#https://github.com/allanbil214) |
+| I Gede Widiantara (Lead)   | 5210411135     | [GitHub Profile](<https://github.com/WawanWidiantara>) |
+| Evi Nur Hidayah            | 5210411104     | [GitHub Profile](<https://github.com/evinhdy>) |
+| Ahmad Halim Faizal Zidan   | 5210411106     | [GitHub Profile](<https://github.com/Zidane03>) |
+| Nendy Nailul Autor         | 5210411117     | [GitHub Profile](<https://github.com/nendynailula>) |
+| Muhammad Izza Iqbal        | 5210411144     | [GitHub Profile](<https://github.com/izzybug>) |
+| Muhammad Aufa Zaydan Azfar | 5210411147     | [GitHub Profile](<https://github.com/AufaAzfar>) |
+| Allan Bil Faqih            | 5210411383     | [GitHub Profile](<https://github.com/allanbil214>) |
 
 ---
 
